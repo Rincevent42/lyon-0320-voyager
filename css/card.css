@@ -42,7 +42,6 @@
 
 .text-btn{
     display: none;
-    margin-bottom: 0rem;
 }
 
 @media screen and (min-width: 767px) {
@@ -63,7 +62,17 @@
         width: 300%;
         margin: 5px;
     }
+
     .price{
         width: 50px;
+    }
+
+    .text-btn{
+        display: block;
+        margin: 0;
+    }
+
+    .fa-credit-card{
+        display: none;
     }
   }
