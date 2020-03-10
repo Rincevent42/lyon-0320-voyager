@@ -48,10 +48,3 @@
 .navbar-dark{
   background-color: var(--light-bg-color);
 }
-
-
-
-
-body{
-  background-color: var(--footer-bg-color);
-}

@@ -1,0 +1,9 @@
+body{
+  background-color: var(--light-bg-color);
+  display:flex;
+  flex-direction: column;
+}
+
+.contenu{
+  height: 900px;
+}
