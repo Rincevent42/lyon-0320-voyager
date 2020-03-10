@@ -1,3 +1,4 @@
+/* carte réservation */
 .card {
     width: 50%;
     border-radius: 10px;
@@ -42,10 +43,20 @@
 
 .text-btn{
     display: none;
-    margin-bottom: 0rem;
+}
+
+/* carte home */
+.card.bg-dark.text-white{
+    width: 80%;
+    height: 300px;
+}
+
+.card-img{
+    object-fit: cover;
 }
 
 @media screen and (min-width: 767px) {
+/* carte reservation */
     body{
         width: 100%;
     }
@@ -63,7 +74,17 @@
         width: 300%;
         margin: 5px;
     }
+
     .price{
         width: 50px;
+    }
+
+    .text-btn{
+        display: block;
+        margin: 0;
+    }
+
+    .fa-credit-card{
+        display: none;
     }
   }
