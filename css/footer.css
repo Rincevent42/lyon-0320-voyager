@@ -65,11 +65,15 @@ section .section-title {
     font-weight: 700;
 }
 
-@media (max-width:767px){
+@media (max-width:576px){
 	#footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
-}
+    }
+
+    .quickLinks {
+        display: none;
+    }
 }
