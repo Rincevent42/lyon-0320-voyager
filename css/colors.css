@@ -1,0 +1,7 @@
+:root {
+    /* From our 4 colors panel */
+    --dark-bg-color: #000; /* Black #1 */
+    --footer-bg-color: #323232; /* Dark grey #2 */
+    --light-bg-color: #F6F6F6; /* Light grey #3 */
+    --violet-bg-color: #8004D2; /* violet #4 */
+};
