@@ -72,12 +72,16 @@ h2, h3 {
   flex-direction: row-reverse;
 }
 
+.contact {
+  margin: 24px auto;
+}
 @media screen and (min-width: 767px) {
   .container-activites img {
     width: 400px;
     max-height: 350px;
     border-radius: 6px;
     margin-right: 24px;
+    margin-bottom: 24px
   }
 
   .container-activites {
