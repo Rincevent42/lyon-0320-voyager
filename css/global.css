@@ -9,7 +9,7 @@ body{
   max-width: 1300px;
 }
 
-.home-cards {
+.home-cards, .about-cards, .planet-cards {
   margin: 48px auto;
   width: 100%;
   display: flex;
@@ -39,4 +39,51 @@ body{
 h2, h3 {
   width: 100%;
   text-align: center;
+}
+
+.container-activites {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 48px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-activites img {
+  width: 300px;
+  max-height: 250px;
+  border-radius: 6px;
+  margin-right: 24px;
+}
+
+.activite-title {
+  width: 100%;
+  text-align: center;
+}
+
+.desc-activite {
+  width: 500px;
+}
+
+.container-activites:nth-of-type(3) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 767px) {
+  .container-activites img {
+    width: 400px;
+    max-height: 350px;
+    border-radius: 6px;
+    margin-right: 24px;
+  }
+
+  .container-activites {
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
 }

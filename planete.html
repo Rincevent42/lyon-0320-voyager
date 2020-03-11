@@ -22,7 +22,7 @@
   <body>
     <!--                Navbar Mobile / Desktop                     -->
     <nav class="sticky-top navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="#"><img id="logo" src="./Images/rocket.png" alt="logo" height="auto" width="100px"/></a>
+      <a class="navbar-brand" href="#"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
       <button class="navbar-toggler nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:black; font-size: 1.5em;"></i></span>
       </button>
@@ -39,10 +39,12 @@
         <span class="banner-title">Coruscant</span>
         <span class="banner-baseline">Le Joyau des Mondes du Noyau</span>
         <div class="overlay"></div>
-        <img src="Images/Planètes/Coruscant.jpg" alt="mars expedition">
+        <img src="./images/planetes/coruscant/Coruscant.jpg" alt="mars expedition">
+        <div class="container-btn container-btn-banner">
+            <button class="btn" id="btn-banner" type="submit">Button</button>
+        </div>
     </div>
-    <button class="btn" type="submit">Button</button>
-    <main class="container-contenu">
+    <main class="container">
         <div class="container-chapo">
             <p class="chapo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
@@ -51,7 +53,7 @@
             <div class="container-img-activite">
                 <h3 class="activite-title">Activite 1</h3>
                 <div class="overlay"></div>
-                <img src="Images/Planètes/Sénat_Galactique.png" alt="...">
+                <img src="./images/planetes/coruscant/Sénat_Galactique.png" alt="...">
             </div>
             <p class="desc-activite">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
@@ -59,7 +61,7 @@
             <div class="container-img-activite">
                 <h3 class="activite-title">Activite 2</h3>
                 <div class="overlay"></div>
-                <img src="Images/Planètes/JediTemple-Deceived.jpg" alt="...">
+                <img src="./images/planetes/coruscant/JediTemple-Deceived.jpg" alt="...">
             </div>
             <p class="desc-activite">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
@@ -67,29 +69,31 @@
             <div class="container-img-activite">
                 <h3 class="activite-title">Activite 3</h3>
                 <div class="overlay"></div>
-                <img src="Images/Planètes/Coruscantspaceport.jpg" alt="...">
+                <img src="./images/planetes/coruscant/Coruscantspaceport.jpg" alt="...">
             </div>
             <p class="desc-activite">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
-        <div class="card">
-            <img src="Images/Planètes/Coruscant.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Prochain départ : 16/04/2020</p>
-                <div class="container-btn">
-                    <p class="price">1 600€</p>
-                    <button class="btn" type="submit"><i class="fas fa-credit-card"></i><p class="text-btn">Button</p></button>
+        <div class="planet-cards">
+            <div class="card">
+                <img src="./images/planetes/coruscant/Coruscant.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Prochain départ : 16/04/2020</p>
+                    <div class="container-btn">
+                        <p class="price">1 600€</p>
+                        <button class="btn" type="submit"><i class="fas fa-credit-card"></i><p class="text-btn">Button</p></button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="Images/Planètes/Coruscant.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Prochain départ : 16/05/2020</p>
-                <div class="container-btn">
-                    <p class="price">1 600€</p>
-                    <button class="btn" type="submit"><i class="fas fa-credit-card"></i><p class="text-btn">Button</p></button>
+            <div class="card">
+                <img src="./images/planetes/coruscant/Coruscant.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Prochain départ : 16/05/2020</p>
+                    <div class="container-btn">
+                        <p class="price">1 600€</p>
+                        <button class="btn" type="submit"><i class="fas fa-credit-card"></i><p class="text-btn">Button</p></button>
+                    </div>
                 </div>
             </div>
         </div>
