@@ -1,13 +1,13 @@
 iframe {
-    border-radius: 6%;
-    width:100%;
-    max-width: 600px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6%;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width: 576px) {
-    iframe {
-        display: block;
-        margin: 0 auto;
-    }
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
 }
