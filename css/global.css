@@ -2,6 +2,11 @@ body{
   background-color: var(--light-bg-color);
   display:flex;
   flex-direction: column;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .contenu{
