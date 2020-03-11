@@ -6,4 +6,37 @@ body{
 
 .container {
   margin-top: 50px;
+  max-width: 1300px;
+}
+
+.home-cards {
+  margin: 48px auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-cards .card {
+  width: 300px;
+  margin: 24px;
+}
+
+.brands {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 48px auto;
+  justify-content: center;
+}
+
+
+.brands img {
+  width: 250px;
+  margin: 24px;
+}
+
+h2, h3 {
+  width: 100%;
+  text-align: center;
 }
