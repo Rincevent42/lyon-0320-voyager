@@ -75,6 +75,18 @@ h2, h3 {
 .contact {
   margin: 24px auto;
 }
+
+address {
+  width: 100%;
+  text-align: center;
+  margin: 48px 0;
+}
+
+address a {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--violet-bg-color);
+}
 @media screen and (min-width: 767px) {
   .container-activites img {
     width: 400px;
