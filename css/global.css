@@ -9,6 +9,114 @@ body{
     display: none;
 }
 
-.contenu{
-  height: 900px;
+.container {
+  margin-top: 50px;
+  max-width: 1300px;
+}
+
+.home-cards, .about-cards, .planet-cards {
+  margin: 48px auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-cards .card {
+  width: 300px;
+  margin: 24px;
+}
+
+.brands {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 48px auto;
+  justify-content: center;
+}
+
+
+.brands img {
+  width: 250px;
+  margin: 24px;
+}
+
+h2, h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.container-activites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 0;
+  width: 350px;
+}
+
+.container-activites img {
+  width: 300px;
+  max-height: 250px;
+  border-radius: 6px;
+  margin-right: 24px;
+}
+
+.activite-title {
+  width: 100%;
+  text-align: center;
+}
+
+.desc-activite {
+  width: 500px;
+}
+
+.contact {
+  margin: 24px auto;
+}
+
+address {
+  width: 100%;
+  text-align: center;
+  margin: 48px 0;
+}
+
+address a {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--violet-bg-color);
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 767px) {
+  .container-activites img {
+    width: 400px;
+    max-height: 350px;
+    border-radius: 6px;
+    margin-bottom: 48px;
+  }
+
+  .activities {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .container-activites {
+    max-width: 500px;
+    width: 450px;
+  }
+
+  .container-activites:nth-of-type(4){
+    justify-self: flex-start;
+  }
 }
