@@ -9,6 +9,16 @@ body{
     display: none;
 }
 
+.title-home{
+  margin-bottom: 30px;
+}
+
+.text-home{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
 .container {
   margin-top: 50px;
   max-width: 1300px;
