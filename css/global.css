@@ -46,12 +46,11 @@ h2, h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 48px 0;
-  width: 350px;
+  width: 100%;
 }
 
 .container-activites img {
-  width: 300px;
+  width: 100%;
   max-height: 250px;
   border-radius: 6px;
   margin-right: 24px;
@@ -63,7 +62,7 @@ h2, h3 {
 }
 
 .desc-activite {
-  width: 500px;
+  width: 100%;
 }
 
 .contact {
@@ -101,7 +100,7 @@ address a {
 
   .activities {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-start;
   }
