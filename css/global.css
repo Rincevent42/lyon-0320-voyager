@@ -42,14 +42,12 @@ h2, h3 {
 }
 
 .container-activites {
-  margin-top: 48px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  margin: 48px auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 48px 0;
+  width: 350px;
 }
 
 .container-activites img {
@@ -68,10 +66,6 @@ h2, h3 {
   width: 500px;
 }
 
-.container-activites:nth-of-type(3) {
-  flex-direction: row-reverse;
-}
-
 .contact {
   margin: 24px auto;
 }
@@ -87,19 +81,37 @@ address a {
   font-weight: bold;
   color: var(--violet-bg-color);
 }
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
 @media screen and (min-width: 767px) {
   .container-activites img {
     width: 400px;
     max-height: 350px;
     border-radius: 6px;
-    margin-right: 24px;
-    margin-bottom: 24px
+    margin-bottom: 48px;
   }
 
-  .container-activites {
+  .activities {
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: flex-start;
   }
 
+  .container-activites {
+    max-width: 500px;
+    width: 450px;
+  }
+
+  .container-activites:nth-of-type(4){
+    justify-self: flex-start;
+  }
 }
