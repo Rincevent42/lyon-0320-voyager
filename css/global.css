@@ -2,7 +2,7 @@ body{
   background-color: var(--light-bg-color);
   display:flex;
   flex-direction: column;
-
+  cursor: url("../images/cursor.png"), pointer;
 }
 
 ::-webkit-scrollbar {
