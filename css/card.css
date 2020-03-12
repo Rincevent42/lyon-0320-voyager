@@ -1,14 +1,24 @@
 /* carte réservation */
 .card {
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
+    width: 80%;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 24px;
 }
 
-.card.catalog {
-  width: 90%;
+.card img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 80%;
 }
+
+.card.catalog{
+    width: 90%;
+}
+
 
 .card-img-top {
     object-fit: cover;
@@ -19,30 +29,30 @@
 }
 
 .card-body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.card-title {
-  margin: 0;
+.card-title{
+    margin: 0;
 }
 
-.container-btn {
-  display: flex;
-  align-items: center;
+.container-btn{
+    display: flex;
+    align-items: center;
 }
 
 .fa-credit-card-banner {
-  display: none;
+    display: none;
 }
 
 .text-btn.text-btn-banner {
-  display: block;
-  margin: 0;
+    display: block;
+    margin: 0;
 }
 
-.overlay.destruct {
+.overlay.destruct{
   background-color: #9a9a9ab0;
   border-radius: 6px;
   justify-content: center;
@@ -53,22 +63,22 @@
   color: white;
 }
 
-.price {
-  margin: 0;
-  margin-right: 10px;
-  font-weight: bold;
+.price{
+    margin: 0;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
-.card-text {
-  display: none;
+.card-text{
+    display: none;
 }
 
-.btn-primary {
-  background-color: royalblue;
+.btn-primary{
+    background-color: royalblue;
 }
 
-.text-btn {
-  display: none;
+.text-btn{
+    display: none;
 }
 
 /* carte home */
@@ -86,16 +96,19 @@
     border-radius: 6px;
 }
 
-.card-img {
-  object-fit: cover;
-  height: 100%;
-  border-radius: 10px;
+.card.bg-dark.text-white .card-img {
+    height: 100%;
+}
+.card-img{
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
 }
 
-.card-img-overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card.resa {
@@ -109,30 +122,43 @@
     object-fit: cover;
 }
 
-  .card .catalog {
-    width: 90%;
-  }
 
-  .card-title {
-    width: 400px;
-  }
+@media screen and (min-width: 767px) {
+/* carte reservation */
+    body{
+        width: 100%;
+    }
 
-  .card-text {
-    display: block;
-    width: 300%;
-    margin: 5px;
-  }
+    .card {
+        width: 350px;
+        height: 600px;
+        margin: 24px;
+    }
 
-  .price {
-    width: 50px;
-  }
+    .card .catalog{
+        width: 90%;
+    }
 
-  .text-btn {
-    display: block;
-    margin: 0;
-  }
+    .card-title{
+        width: 400px;
+    }
 
-  .fa-credit-card {
-    display: none;
+    .card-text{
+        display: block;
+        width: 300%;
+        margin: 5px;
+    }
+
+    .price{
+        width: 50px;
+    }
+
+    .text-btn{
+        display: block;
+        margin: 0;
+    }
+
+    .fa-credit-card{
+        display: none;
+    }
   }
-}
