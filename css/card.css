@@ -22,7 +22,7 @@
 
 .card-img-top {
     object-fit: cover;
-    
+
     height: 150px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -32,6 +32,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card.bg-dark.text-white.hover-card:hover {
+    transform: translateY(-10px) translateX(10px);
+    box-shadow: -10px 10px 0px #8002d2;
+    transition: 0.5s;
 }
 
 .card-title{
