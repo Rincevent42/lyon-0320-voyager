@@ -91,7 +91,7 @@ address {
   margin: 48px 0;
 }
 
-address a {
+address a, address div {
   font-size: 2em;
   font-weight: bold;
   color: var(--violet-bg-color);
@@ -104,6 +104,7 @@ address a {
   align-items: center;
   width: 100%;
 }
+
 
 
 @media screen and (min-width: 767px) {
