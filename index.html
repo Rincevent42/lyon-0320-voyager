@@ -15,13 +15,14 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
       <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="favicon.ico">
       <title>Accueil</title>
   </head>
 
   <body>
     <!--                Navbar Mobile / Desktop                     -->
     <nav class="sticky-top navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="#"><img id="logo" src="./Images/rocket.png" alt="logo" height="auto" width="100px"/></a>
+      <a class="navbar-brand" href="#"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
       <button class="navbar-toggler nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:black; font-size: 1.5em;"></i></span>
       </button>
@@ -34,9 +35,54 @@
         </div>
       </div>
     </nav>
+    <div class="banner-large">
+        <h1 class="banner-title">Déjeuner sur <span id="changeText">Mars</span></h1>
+        <span class="banner-baseline">L'imensité de l'espace à votre portée !</span>
+        <div class="overlay"></div>
+        <img src="./images/home-banner.png" alt="mars expedition">
+        <div class="container-btn container-btn-banner">
+            <button class="btn" id="btn-banner" type="submit">Button</button>
+        </div>
+    </div>
 
-    <main class="contenu">
-      <button class="btn" type="submit">Button</button>
+    <main class="container">
+
+        <h2>Bienvenue chez Voyager !</h2>
+        <p>Voyager vous permet de réaliser votre rêve de d'explorer l'espace et les spots les plus mythiques de la galaxie ou d'ailleurs ! </p>
+
+        <div class="container">
+            <h3>Nos Meilleurs voyages</h3>
+            <div class="home-cards">
+                <div class="card bg-dark text-white">
+                    <img src="./images/planetes/mars/mars.jpg" class="card-img" alt="Mars">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title-home">Visiter Mars</h5>
+                      <p class="card-text-home">3M€/pers *</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white">
+                    <img src="./images/planetes/coruscant/Coruscant.jpg" class="card-img" alt="Coruscant">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title-home">Visiter Coruscant</h5>
+                      <p class="card-text-home">25M€/pers *</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white">
+                    <img src="./images/planetes/arrakis/Arrakis.jpg" class="card-img" alt="Arrakis">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title-home">Visiter Arrakis</h5>
+                      <p class="card-text-home">18M€/pers *</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Ils nous font confiance</h3>
+        <div class="brands">
+            <img src="./images/spacex.jpg" alt="spacex">
+            <img src="./images/nasa.png" alt="nasa">
+            <img src="./images/amazon.png" alt="amazon">
+        </div>
     </main>
 
     <!--      Footer -        -->
@@ -59,8 +105,8 @@
                     <div class="col-xs-1 col-sm-9">
                         <h5>Quick links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a href="index.html;"><i class="fa fa-angle-double-right"></i>Acceuil</a></li>
-                            <li><a href="catalogue.html;"><i class="fa fa-angle-double-right"></i>Nos Destinations</a></li>
+                            <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Acceuil</a></li>
+                            <li><a href="catalogue.html"><i class="fa fa-angle-double-right"></i>Nos Destinations</a></li>
                             <li><a href="about.html"><i class="fa fa-angle-double-right"></i>L'équpage</a></li>
                             <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
                         </ul>

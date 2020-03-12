@@ -1,14 +1,28 @@
 /* carte réservation */
 .card {
     width: 80%;
+    height: 650px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
+    margin-bottom: 24px;
 }
+
+.card img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 80%;
+}
+
+.card.catalog{
+    width: 90%;
+}
+
 
 .card-img-top {
     object-fit: cover;
-    height: 100px;
+    height: 150px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -28,9 +42,29 @@
     align-items: center;
 }
 
+.fa-credit-card-banner {
+    display: none;
+}
+
+.text-btn.text-btn-banner {
+    display: block;
+    margin: 0;
+}
+
+.overlay.destruct{
+  background-color: #9a9a9ab0;
+  border-radius: 6px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .price{
     margin: 0;
-    margin-right: 5px;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 .card-text{
@@ -47,12 +81,15 @@
 
 /* carte home */
 .card.bg-dark.text-white{
-    width: 80%;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
+.card.bg-dark.text-white .card-img {
+    height: 100%;
+}
 .card-img{
     object-fit: cover;
     height: 100%;
@@ -72,15 +109,21 @@
     body{
         width: 100%;
     }
-    
+
     .card {
-        width: 100%;
+        width: 350px;
+        height: 600px;
+        margin: 24px;
+    }
+
+    .card .catalog{
+        width: 90%;
     }
 
     .card-title{
         width: 400px;
     }
-    
+
     .card-text{
         display: block;
         width: 300%;
