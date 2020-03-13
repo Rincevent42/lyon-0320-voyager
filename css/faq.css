@@ -42,7 +42,7 @@ This could be improved to automatically adapt  to any box content length, here's
 .box-body {
     overflow: hidden;
     height: 100px;
-    transition: height 1s; /** Look here https://developer.mozilla.org/en-US/docs/Web/CSS/transition **/
+    transition: height 0.3s; /** Look here https://developer.mozilla.org/en-US/docs/Web/CSS/transition **/
 }
 
 .box-body.collapsed {
