@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const cardHeader = document.querySelector('.box-header'); // querySelector takes a CSS selector in parameter
-    cardHeader.addEventListener('click', function () {
+    const cardHeaders = document.querySelectorAll('.box-header'); // querySelector takes a CSS selector in parameter
+    cardHeaders.forEach(function(cardHeader) {
+      cardHeader.addEventListener('click', function (event) {
         // retrieving the DOM elements that we are going to play with...
-        const titleElement = document.querySelector('.box-header h3');
-        const chevronElement = document.querySelector('.toggle-icon-container i');
+        const titleElement = event.target.closest('.box-header').firstChild;
+        const chevronElement = event.target.closest('.box-header').lastElementChild.firstElementChild;
         const boxBodyElement = titleElement.parentNode.nextElementSibling; // we can also "navigate" in the DOM to get elements
         const boxBodyClassAttribute = boxBodyElement.className;
         const boxBodyClassesArray = boxBodyClassAttribute.split(' '); 
@@ -15,14 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (boxBodyIsCollapsed) {
             // switch to uncollapsed state
-            titleElement.innerHTML = 'Quelles sont les meilleures périodes pour partir ?';
+            titleElement.innerHTML = 'Hide Content';
             boxBodyElement.className = 'box-body';
             chevronElement.className = 'fas fa-chevron-down';
         } else { // it's not collapsed
             // switch to collapsed state 
-            titleElement.innerHTML = 'Quelles sont les meilleures périodes pour partir ?';
+            titleElement.innerHTML = 'Show Content';
             boxBodyElement.className = 'box-body collapsed';
             chevronElement.className = 'fas fa-chevron-right'
         }
+        
+      });
     });
 })
