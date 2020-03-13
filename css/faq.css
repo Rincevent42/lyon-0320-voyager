@@ -1,8 +1,3 @@
-body,
-html {
-    height: 100%;
-    background: #f2f2f2;
-}
 
 .has-background-pink {
     background: rgb(108, 0, 199) !important;
@@ -22,6 +17,10 @@ html {
     padding: 2rem 2rem 0 0;
 }
 
+.faq-sub{
+  text-align: start
+  
+}
 
 .box-header {
     cursor: pointer;
@@ -33,9 +32,9 @@ html {
     margin-right: 10px;
 }
 
-/** 
-The following manages the collapsed or uncollapsed state of the box body. 
-For the sake of simplicity, I used a fixed height. 
+/**
+The following manages the collapsed or uncollapsed state of the box body.
+For the sake of simplicity, I used a fixed height.
 This could be improved to automatically adapt  to any box content length, here's how : https://css-tricks.com/using-css-transitions-auto-dimensions/
 **/
 
@@ -48,4 +47,3 @@ This could be improved to automatically adapt  to any box content length, here's
 .box-body.collapsed {
     height: 0;
 }
-
