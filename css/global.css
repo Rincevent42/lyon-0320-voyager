@@ -1,8 +1,13 @@
+html {
+  overflow-x: hidden;
+  padding: 0;
+}
 body{
   background-color: var(--light-bg-color);
   display:flex;
   flex-direction: column;
   cursor: url("../images/cursor.png"), pointer;
+  margin: 0;
 }
 
 ::-webkit-scrollbar {
