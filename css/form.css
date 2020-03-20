@@ -9,7 +9,7 @@ html{
 }
 .form-row {
     border-radius: 6px;
-    border: solid 2px black;
+    border: solid 2px var(--dark-bg-color);
     margin-bottom: 20px;
 }
 .form-row .col{
@@ -21,8 +21,8 @@ html{
 .btn {
     display: flex;
     margin-left: auto;
-    background: #8004D2;
-    color: #F6F6F6;
+    background: var(--violet-bg-color);
+    color: var(--light-bg-color);
     padding: 6px 30px;
     font-weight: bold;
     font-size: 18px;

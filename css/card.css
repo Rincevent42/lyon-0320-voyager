@@ -21,7 +21,7 @@
 
 
 .card.catalog.activ:hover{
-  box-shadow: 0px 10px 0px #8002d2;
+  box-shadow: 0px 10px 0px var(--violet-bg-color);
   transition: 0.5s;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .equipe::before{
-    background: #8002d200;
+    background: var(--violet-bg-color);
     height: 40px;
     width: 40px;
     content: "";
@@ -49,18 +49,18 @@
 
 .equipe:hover::before{
   transition: 0.5s;
-  background: #8002d2;
+  background: var(--violet-bg-color);
 }
 
 .lien-card{
   display: flex;
   justify-content: center;
-  color: #000;
+  color: var(--dark-bg-color);
 }
 
 .lien-card:hover{
   text-decoration: none;
-  color: #000;
+  color: var(--dark-bg-color);
 }
 
 .card-body {
@@ -71,7 +71,7 @@
 
 .card.bg-dark.text-white.hover-card:hover {
     transform: translateY(-10px) translateX(10px);
-    box-shadow: -10px 10px 0px #8002d2;
+    box-shadow: -10px 10px 0px var(--violet-bg-color);
     transition: 0.5s;
 }
 
@@ -94,14 +94,14 @@
 }
 
 .overlay.destruct{
-  background-color: #9a9a9ab0;
+  background-color: var(--overlay-bg-color);
   border-radius: 6px;
   justify-content: center;
   display: flex;
   align-items: center;
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: var(--white-color);
 }
 
 .price{
@@ -115,7 +115,7 @@
 }
 
 .btn-primary{
-    background-color: royalblue;
+    background-color: var(--btn-primary-color);
 }
 
 .text-btn{

@@ -1,10 +1,14 @@
 :root {
     /* From our 4 colors panel */
 
-    /* Ce sont des variables */
+    /* Variables */
 
     --dark-bg-color: #000; /* Black #1 */
     --footer-bg-color: #323232; /* Dark grey #2 */
     --light-bg-color: #F6F6F6; /* Light grey #3 */
     --violet-bg-color: #8004D2; /* Violet #4 */
+    --white-color: #fff; /* White */
+    --overlay-bg-color: #a9a9ab; /* color used in card.css file */
+    --btn-primary-color: royalblue; /* color used in card.css file */
+    
 };

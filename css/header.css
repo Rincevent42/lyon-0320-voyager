@@ -34,7 +34,7 @@ html, body {
   text-align: center;
   top: 40%;
   left: 0;
-  color: #fff;
+  color: var(--white-color);
   font-weight: bold;
   font-size: 3em;
   z-index: 2;
@@ -46,8 +46,8 @@ html, body {
   text-align: center;
   top: 65%;
   left: 0;
-  color: #fff;
-  font-weight: medium;
+  color: var(--white-color);
+  font-weight: 600;
   font-size: 1.5em;
   z-index: 2;
 }
@@ -81,7 +81,7 @@ html, body {
   text-align: center;
   top: 30%;
   left: 0;
-  color: #fff;
+  color: var(--white-color);
   font-weight: bold;
   font-size: 3em;
   z-index: 2;
@@ -93,8 +93,8 @@ html, body {
   text-align: center;
   top: 55%;
   left: 0;
-  color: #fff;
-  font-weight: medium;
+  color: var(--white-color);
+  font-weight: 600;
   font-size: 1.5em;
   z-index: 2;
 }
