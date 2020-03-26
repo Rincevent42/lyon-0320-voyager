@@ -40,11 +40,11 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: black;
+    color: var(--navbar-txt-color);
     justify-content: center;
     display: flex;
 }
 
 .navbar-dark{
-  background-color: var(--light-bg-color);
+  background-color: var(--background-color);
 }

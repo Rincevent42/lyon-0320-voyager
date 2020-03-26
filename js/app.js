@@ -1,4 +1,4 @@
- /* Animation de texte header*/
+ /* Text animation in the header */
 
 document.addEventListener('DOMContentLoaded', function () {
     const planetes = ["Arrakis", "Pandora", "Coruscant","Mars"];
@@ -14,7 +14,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 3000)
 })
 
- /* Animation de fusée*/
+/* Dark mode / light mode toggleling */
+function switchTheme(event) {
+    if (event.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }    
+}
+
+const toggler = document.querySelector('#toggler');
+toggler.addEventListener('change', switchTheme, false);
+
 
 
 

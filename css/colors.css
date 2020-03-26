@@ -3,12 +3,30 @@
 
     /* Variables */
 
-    --dark-bg-color: #000; /* Black #1 */
+    /* Data theme light => default one */
+    --dark-bg-color: #000; /* Background of the pages */
     --footer-bg-color: #323232; /* Dark grey #2 */
-    --light-bg-color: #F6F6F6; /* Light grey #3 */
+    --background-color: #F6F6F6; /* Light grey #3 : --light-bg-color: */
     --violet-bg-color: #8004D2; /* Violet #4 */
     --white-color: #fff; /* White */
     --overlay-bg-color: #a9a9ab; /* color used in card.css file */
-    --btn-primary-color: royalblue; /* color used in card.css file */
+    --btn-primary-color: royalblue; /* color used in card.css file - Hex: #4169E1*/
+    --navbar-txt-color: black; /* Color of the text in the navbar */
+    --text-dark-color: black; /* Color of the text (dark), global */
+    --text-light-color: white; /* Color of the text (light), global */
     
-};
+}
+
+/* Data theme dark, choosed by visitor */
+[data-theme="dark"] {
+    --dark-bg-color: white; /* Background of the pages */
+    --footer-bg-color: #323232; /* Dark grey #2 */
+    --background-color: #090909; /* Light grey #3 */
+    --violet-bg-color: #8004D2; /* Violet #4 */
+    --white-color: black; /* White */
+    --overlay-bg-color: #565654; /* color used in card.css file */
+    --btn-primary-color: #FBE96F; /* color used in card.css file */
+    --navbar-txt-color: rgb(214, 214, 214); /* Color of the text in the navbar */
+    --text-dark-color: #a0a0a0; /* Color of the text (dark), global */
+    --text-light-color: #BDBDBD; /* Color of the text (light), global BDBDBD*/
+  }
