@@ -48,3 +48,7 @@
 .navbar-dark{
   background-color: var(--background-color);
 }
+
+.navbar-darkmode {
+  align-self: center;
+}
