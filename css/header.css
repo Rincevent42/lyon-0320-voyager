@@ -81,7 +81,7 @@ html, body {
   text-align: center;
   top: 30%;
   left: 0;
-  color: var(--white-color);
+  color: var(--text-light-color); 
   font-weight: bold;
   font-size: 3em;
   z-index: 2;
@@ -93,7 +93,7 @@ html, body {
   text-align: center;
   top: 55%;
   left: 0;
-  color: var(--white-color);
+  color: var(--text-light-color); 
   font-weight: 600;
   font-size: 1.5em;
   z-index: 2;

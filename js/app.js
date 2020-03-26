@@ -14,18 +14,39 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 3000)
 })
 
+
+
 /* Dark mode / light mode toggleling */
 function switchTheme(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
-    }
-    else {
+        //setCookie('darkMode',true,1);
+        localStorage.setItem('darkMode','dark');
+        console.log('Dark mode set');
+    } else {
         document.documentElement.setAttribute('data-theme', 'light');
+        //setCookie('darkMode',false,1);
+        localStorage.setItem('darkMode','light');
+        console.log('Dark mode unset');
     }    
 }
 
 const toggler = document.querySelector('#toggler');
 toggler.addEventListener('change', switchTheme, false);
+
+/* Toggle between dark and classic screen mode when page loaded
+according to the value of the local storage variable 'darkMode' */
+const darkMode = localStorage.getItem('darkMode');
+console.log('Dark mode Local Storage variable set to : ' + darkMode);
+document.documentElement.setAttribute('data-theme', darkMode);
+if (darkMode == 'dark') {
+    document.getElementById("toggler").checked = true;
+    console.log("Dark mode checkbox status changed to checked");
+} else {
+    document.getElementById("toggler").checked = false;
+    console.log("Dark mode checkbox status changed to unchecked");
+}
+
 
 
 
