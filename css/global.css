@@ -114,6 +114,17 @@ address a, address span {
 }
 /* END : Contact page section */
 
+/* BEGIN : Modal */
+#modal input , #modal textarea {
+  background-color: var(--card-light-bg-color);
+  color: var(--text-dark-color);
+}
+
+.modal-content {
+  background-color: var(--card-light-bg-color);
+  color: var(--text-dark-color);
+}
+/* END : Modal */
 
 @media screen and (min-width: 767px) {
   .container-activites img {

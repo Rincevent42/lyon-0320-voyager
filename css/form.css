@@ -7,11 +7,15 @@ html{
     margin: 48px auto;
     width: 80vw;
 }
+
+.form input , .form textarea {
+    background-color: var(--card-light-bg-color);
+}
+
 .form-row {
     border-radius: 6px;
     border: solid 2px var(--border-light-color);
     margin-bottom: 20px;
-    /* background-color: var(--card-light-bg-color); */
 } 
 .form-row .col{
     padding: 0;
