@@ -1,13 +1,13 @@
 .btn {
-    background: #8004D2;
-    color: var(--text-dark-color);
+    background: var(--btn-primary-color);
+    color: var(--text-light-color);
     padding: 6px 30px;
     font-weight: bold;
     font-size: 18px;
 }
 
 .btn:hover {
-    background-color: rgb(177, 60, 255);
-    color: var(--text-dark-color);
+    background-color: var(--btn-hover-color);
+    color: var(--text-dark);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

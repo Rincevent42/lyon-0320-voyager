@@ -10,25 +10,33 @@
     --violet-bg-color: #8004D2; /* Violet #4 */
     --white-color: #fff; /* White */
     --overlay-bg-color: #a9a9ab; /* color used in card.css file */
-    --btn-primary-color: royalblue; /* color used in card.css file - Hex: #4169E1*/
+    --btn-primary-color: #8004D2; /* color used in card.css file - Hex: #4169E1*/
+    --btn-hover-color: #b13cff; /* When mouse is hover the button */
     --navbar-txt-color: black; /* Color of the text in the navbar */
     --text-dark-color: black; /* Color of the text (dark), global */
     --text-light-color: white; /* Color of the text (light), global */
     --card-light-bg-color: white; /* Color of the text background color of cards */
+    --faq-card-bg-color: white; /* Background color of the faq cards */
+    --text-dark: black; /* Dark clored text */
+    --border-light-color: black; /* Form border color */
     
 }
 
 /* Data theme dark, choosed by visitor */
 [data-theme="dark"] {
     --dark-bg-color: white; /* Background of the pages */
-    --footer-bg-color: #323232; /* Dark grey #2 */
+    --footer-bg-color: #212121; /* Dark grey #2 */
     --background-color: #090909; /* Light grey #3 */
-    --violet-bg-color: #8004D2; /* Violet #4 */
+    --violet-bg-color: #400269; /* Violet #4 */
     --white-color: black; /* White */
     --overlay-bg-color: #323232; /* color used in card.css file 565654 */
-    --btn-primary-color: #FBE96F; /* color used in card.css file */
+    --btn-primary-color: #8004D2; /* Standard color fir button */
+    --btn-hover-color: #b13cff; /* When mouse is hover the button */
     --navbar-txt-color: rgb(214, 214, 214); /* Color of the text in the navbar */
     --text-dark-color: #a0a0a0; /* Color of the text (dark), global */
     --text-light-color: #BDBDBD; /* Color of the text (light), global BDBDBD*/
     --card-light-bg-color: #323232; /* Color of the text background color of cards */
+    --faq-card-bg-color: #212121; /* Background color of the faq cards */
+    --text-dark: black; /* Dark clored text */
+    --border-light-color: black; /* Form border color */
   }

@@ -23,21 +23,28 @@
 <body>
     <!--                Navbar Mobile / Desktop                     -->
     <nav class="sticky-top navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="index.html"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
-        <button class="navbar-toggler nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:black; font-size: 1.5em;"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="./images/rocket.png" alt="logo" height="auto" width="100px"/></a>
+      <button class="navbar-toggler nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:black; font-size: 1.5em;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="catalogue.html">Nos Destinations</a>
             <a class="nav-item nav-link" href="about.html">L'Équipage</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
+            <div class="nav-item nav-link" >
+                <div class="navbar-darkmode">
+                    <label for="toggler">Mode sombre</label>
+                    <input id="toggler" type="checkbox">
+                </div>
+            </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+
       <!--      FAQ        -->
-  <section class="hero is-primary has-background-pink">
+  <section id="faq" class="hero is-primary has-background-pink">
     <div class="hero-body">
       <div class="columns">
         <div class="column is-12">
@@ -191,5 +198,6 @@
         <!-- ./Footer -->
     </footer>
     <script src="js/faq.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

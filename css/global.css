@@ -11,9 +11,11 @@ body{
   color: var(--text-dark-color);
 }
 
+/*
 ::-webkit-scrollbar {
     display: none;
 }
+*/
 
 .title-home{
   margin-bottom: 30px;
@@ -86,6 +88,7 @@ h2, h3 {
   width: 100%;
 }
 
+/* BEGIN: Contact page section */
 .contact {
   margin: 24px auto;
 }
@@ -109,6 +112,7 @@ address a, address span {
   align-items: center;
   width: 100%;
 }
+/* END : Contact page section */
 
 
 @media screen and (min-width: 767px) {

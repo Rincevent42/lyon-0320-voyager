@@ -1,14 +1,13 @@
 
-.has-background-pink {
-    background: rgb(108, 0, 199) !important;
-}
-
 .hero.is-primary {
-    background: linear-gradient(to top right, #524ad0 10%, #D099FA);
+    background-color: var(--violet-bg-color);
+    
 }
 
 .box {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--faq-card-bg-color);
+    color: var(--text-dark-color);
 }
 
 .box span.icon {
@@ -46,4 +45,25 @@ This could be improved to automatically adapt  to any box content length, here's
 
 .box-body.collapsed {
     height: 0;
+}
+
+#faq {
+    /* color: var(--text-light-color); */
+    color: var(--text-light-color);
+}
+
+.hero.is-primary .title {
+    color: var(--text-light-color);
+}
+
+.hero.is-primary .subtitle {
+    color: var(--text-light-color);
+}
+
+.content h3 {
+    color: var(--text-dark-color);
+}
+
+.section {
+    padding: 0;
 }

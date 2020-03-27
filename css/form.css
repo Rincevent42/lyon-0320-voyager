@@ -9,24 +9,23 @@ html{
 }
 .form-row {
     border-radius: 6px;
-    border: solid 2px var(--dark-bg-color);
+    border: solid 2px var(--border-light-color);
     margin-bottom: 20px;
-}
+    /* background-color: var(--card-light-bg-color); */
+} 
 .form-row .col{
     padding: 0;
 }
 .row3 {
     height: 200px;
 }
+
 .btn {
+    /* See other properties in file css/buttons.css */
     display: flex;
     margin-left: auto;
-    background: var(--violet-bg-color);
-    color: var(--background-color);
-    padding: 6px 30px;
-    font-weight: bold;
-    font-size: 18px;
 }
+
 
 @media screen and (min-width:577px){
     .form {
