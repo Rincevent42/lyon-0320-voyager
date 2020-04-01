@@ -116,7 +116,8 @@ address a, address span {
 
 /* BEGIN : Modal */
 #modal input , #modal textarea {
-  background-color: var(--card-light-bg-color);
+  /* background-color: var(--card-light-bg-color);*/
+  background-color: yellow;
   color: var(--text-dark-color);
 }
 
