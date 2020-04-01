@@ -116,8 +116,7 @@ address a, address span {
 
 /* BEGIN : Modal */
 #modal input , #modal textarea {
-  /* background-color: var(--card-light-bg-color);*/
-  background-color: yellow;
+  background-color: var(--card-light-bg-color);
   color: var(--text-dark-color);
 }
 
@@ -126,6 +125,14 @@ address a, address span {
   color: var(--text-dark-color);
 }
 /* END : Modal */
+
+/* BEGIN : NavBar */
+/* Change the color of the burger menu according to dark mode theme */
+.fa-bars {
+  color: var(--text-dark-color);
+  font-size: 1.5em;
+}
+/* END : NavBar */
 
 @media screen and (min-width: 767px) {
   .container-activites img {
