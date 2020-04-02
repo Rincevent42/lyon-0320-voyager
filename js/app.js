@@ -1,5 +1,4 @@
 /* Text animation in the header */
-
 document.addEventListener('DOMContentLoaded', function () {
   const planetes = ['Arrakis', 'Pandora', 'Coruscant', 'Mars'];
   const change = document.getElementById('changeText');
@@ -11,34 +10,40 @@ document.addEventListener('DOMContentLoaded', function () {
     if (i > 3) {
       i = 0;
     }
-  }, 3000)
-})
+  }, 3000);
+});
 
 /* Dark mode / light mode toggleling */
+/* When visitor click on the toggle button, this event is monitored
+   and then, following action is done :
+   1. status was unchecked => set the dark mode
+   2. status was checked => unset the dark mode
+   Then status is stored in a local storage place
+   Notice: status is kept when visitor leaves the site */
+/* From https://codepen.io/wasthishelpful/pen/XWbYmRE */
 function switchTheme (event) {
   if (event.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('darkMode','dark');
-    console.log('Dark mode set');
+    /* console.log('Dark mode set'); */
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('darkMode','light');
-    console.log('Dark mode unset');
+    /* console.log('Dark mode unset'); */
   }
 }
-
 const toggler = document.querySelector('#toggler');
 toggler.addEventListener('change', switchTheme, false);
 
 /* Toggle between dark and classic screen mode when page loaded
 according to the value of the local storage variable 'darkMode' */
 const darkMode = localStorage.getItem('darkMode');
-console.log('Dark mode Local Storage variable set to : ' + darkMode);
+/* console.log('Dark mode Local Storage variable set to : ' + darkMode); */
 document.documentElement.setAttribute('data-theme', darkMode);
 if (darkMode === 'dark') {
   document.getElementById('toggler').checked = true;
-  console.log('Dark mode checkbox status changed to checked');
+  /* console.log('Dark mode checkbox status changed to checked'); */
 } else {
   document.getElementById('toggler').checked = false;
-  console.log('Dark mode checkbox status changed to unchecked');
+  /* console.log('Dark mode checkbox status changed to unchecked'); */
 }
